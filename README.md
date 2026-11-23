@@ -1,6 +1,6 @@
 # Case Method Data Mining — FP-Growth
 
-Repository ini berisi proyek Case Method mata kuliah Data Mining untuk menganalisis pola keranjang belanja pada dataset Online Retail menggunakan algoritma FP-Growth dan aturan asosiasi.
+Repository ini berisi proyek Case Method mata kuliah Data Mining untuk menganalisis pola keranjang belanja pada dataset Online Retail menggunakan algoritma FP-Growth.
 
 ## Informasi proyek
 - Mata kuliah: Data Mining
@@ -24,21 +24,12 @@ case-method-fpgrowth/
 ├── README.md
 ├── requirements.txt
 ├── dataset/
-│   └── README.md
-├── program/
-│   └── README.md
+│   ├── README.md
+│   └── Online_Retail.zip
 └── hasil-case-method/
-    └── README.md
+    ├── README.md
+    └── FP_Growth_Online_Retail.ipynb
 ```
 
 ## Menjalankan program
 Buka notebook implementasi pada folder `program/` di Google Colab, unggah dataset Online Retail jika diperlukan, lalu jalankan sel secara berurutan.
-
-Instal dependensi dengan:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Catatan metodologi
-Aturan asosiasi menunjukkan keterkaitan, bukan hubungan sebab-akibat. Hasil notebook bergantung pada data dan parameter yang digunakan.
