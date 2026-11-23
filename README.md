@@ -23,16 +23,22 @@ Repository ini berisi proyek Case Method mata kuliah Data Mining untuk menganali
 case-method-fpgrowth/
 ├── README.md
 ├── requirements.txt
-├── 01-memahami-dataset/
-├── 02-data-preprocessing/
-├── 03-implementasi-fpgrowth/
-│   └── FP_Growth_Online_Retail_Colab_revisi.ipynb
-├── 04-hasil-dan-visualisasi/
-└── 05-laporan/
+├── dataset/
+│   └── README.md
+├── program/
+│   └── README.md
+└── hasil-case-method/
+    └── README.md
 ```
 
-## Menjalankan notebook
-Buka notebook implementasi di Google Colab, unggah `Online_Retail.xlsx` saat diminta, lalu jalankan sel secara berurutan. Instal dependensi dengan `pip install -r requirements.txt` jika menjalankannya di lingkungan lokal. Dataset tidak disertakan; unduh dari UCI Machine Learning Repository.
+## Menjalankan program
+Buka notebook implementasi pada folder `program/` di Google Colab, unggah dataset Online Retail jika diperlukan, lalu jalankan sel secara berurutan.
+
+Instal dependensi dengan:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Catatan metodologi
 Aturan asosiasi menunjukkan keterkaitan, bukan hubungan sebab-akibat. Hasil notebook bergantung pada data dan parameter yang digunakan.
