@@ -8,7 +8,7 @@ Analisis menggunakan data transaksi toko online, dengan satu invoice diperlakuka
 
 Pada keluaran notebook yang tersimpan, data hasil preprocessing mencakup **16.523 transaksi**, menghasilkan **475 frequent itemsets** dan **95 aturan asosiasi dengan lift lebih dari 1**. Pola teratas dan metrik aturannya ditampilkan di notebook; gunakan hasil tersebut untuk melihat pasangan produk secara rinci.
 
-## Kesimpulan dan batasan
+## Kesimpulan 
 
 Hasil menunjukkan adanya sejumlah produk yang cenderung muncul bersama dalam transaksi. Temuan ini dapat menjadi masukan untuk eksplorasi penataan produk atau rekomendasi bundel, tetapi aturan asosiasi hanya menunjukkan keterkaitan dan tidak membuktikan hubungan sebab-akibat. Hasil juga bergantung pada preprocessing dan parameter yang digunakan.
 
